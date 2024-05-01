@@ -39,7 +39,7 @@ void A() {
 int main() {
     do {
         printf("\n");
-        printf("Donner un mot Ã  tester (/ pour terminer) : ");
+        printf("Donner un mot a  tester (/ pour terminer) : ");
         scanf("%s", M);
         stop = strcmp(M, "/");
         if (stop != 0) {
